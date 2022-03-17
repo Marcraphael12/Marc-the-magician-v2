@@ -1,0 +1,60 @@
+.main { /* Main container */
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.calc { /* Calculator container */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Calculator's screen start */
+.screen { /* Calculator's screen */
+  width: 100%;
+  height: auto;
+  background: rgb(42, 42, 42);
+}
+
+.screen input { /* Calculator's screen input */
+  direction: rtl;
+  max-width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Calculator's screen end */
+
+/* Calculator's buttons start */
+li {
+  border: 1px solid #000;
+  font-weight: bolder;
+}
+
+.pad { /* Calculator's buttons container */
+  width: 25%;
+  height: auto;
+}
+
+.zero { /* zero button */
+  width: 50%;
+}
+
+.same { /* gray buttons */
+  background-color: #5c5c5c;
+}
+
+.same:hover {
+  background-color: #4c4c4c;
+}
+
+.different { /* Orange buttons */
+  background-color: #f60;
+}
+
+.different:hover {
+  background-color: #d60;
+}
+
+/* Calculator's buttons end */
