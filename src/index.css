@@ -13,7 +13,8 @@
   justify-content: center;
 }
 
-button, input {
+button,
+input {
   width: 100%;
   height: auto;
   padding: 10px 0;
