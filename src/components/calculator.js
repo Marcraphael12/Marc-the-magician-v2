@@ -3,8 +3,8 @@ import './calculator.css';
 
 function Pad() {
   return (
-    <div>
-      <ul>
+    <div className='main'>
+      <ul className='calc'>
         <li className="screen"><input className="" type="text" placeholder="0" /></li>
         <li className="pad same"><button type="submit">AC</button></li>
         <li className="pad same"><button type="submit">+/-</button></li>
