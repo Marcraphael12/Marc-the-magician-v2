@@ -6,8 +6,8 @@
 that allows users to make simple calculations, read a random math-related quote.
 
 ![screenshot](./bkg1.png)
-![screenshot](./bkg2.png)
-![screenshot](./bkg3.png)
+<!--![screenshot](./bkg2.png)
+![screenshot](./bkg3.png) -->
 
 Additional description about the project and its features.
 
@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://marc-the-magician.herokuapp.com/)
+[In construction]()
 
 
 ## Getting Started
