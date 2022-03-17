@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://marc-the-magician.herokuapp.com/)
+[In construction]()
 
 
 ## Getting Started
