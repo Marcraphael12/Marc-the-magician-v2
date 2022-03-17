@@ -1,9 +1,14 @@
-function App() {
-  return (
-    <div className="app">
-      <h1>Welcome to Math Magician</h1>
-    </div>
-  );
+import React from 'react';
+import Calculator from './components/calculator';
+
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Calculator />
+      </>
+    );
+  }
 }
 
 export default App;
