@@ -8,12 +8,16 @@
 
 #root {
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.app {
+button, input {
   width: 100%;
-}
-
-section {
-  max-width: 1140px;
+  height: auto;
+  padding: 10px 0;
+  background: transparent;
+  outline: none;
+  border: none;
 }
