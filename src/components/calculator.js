@@ -1,40 +1,64 @@
 import React from 'react';
 import './calculator.css';
 
-function Pad() {
-  return (
-    <div className='main'>
-      <ul className='calc'>
-        <li className="screen"><input className="" type="text" placeholder="0" /></li>
-        <li className="pad same"><button type="submit">AC</button></li>
-        <li className="pad same"><button type="submit">+/-</button></li>
-        <li className="pad same"><button type="submit">%</button></li>
-        <li className="pad different"><button type="submit">+</button></li>
-        <li className="pad same"><button type="submit">7</button></li>
-        <li className="pad same"><button type="submit">8</button></li>
-        <li className="pad same"><button type="submit">9</button></li>
-        <li className="pad different"><button type="submit">*</button></li>
-        <li className="pad same"><button type="submit">4</button></li>
-        <li className="pad same"><button type="submit">5</button></li>
-        <li className="pad same"><button type="submit">6</button></li>
-        <li className="pad different"><button type="submit">-</button></li>
-        <li className="pad same"><button type="submit">1</button></li>
-        <li className="pad same"><button type="submit">2</button></li>
-        <li className="pad same"><button type="submit">3</button></li>
-        <li className="pad different"><button type="submit">/</button></li>
-        <li className="pad same zero"><button type="submit">0</button></li>
-        <li className="pad same"><button type="submit">.</button></li>
-        <li className="pad different"><button type="submit">=</button></li>
-      </ul>
-    </div>
-  );
-}
+// Logic components
+import calculate from './Logic/calculate';
+import operate from './Logic/operate';
+
+// Buttons list
+import buttons from './buttons';
 
 class Calculator extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {}
+  }
+
+  handleClick = (e) => {
+    const value = e.target.textContent;
+    const  calcState= calculate(this.state, value);
+    this.setState( calcState );
+  }
   render() {
+    const { total, next, operation } = this.state;
+
+    // Taking result accordingly to the defined state
+    let result = ''; // Default value
+    if (total) { // If there is a total
+      result = `${total} ${operation || ''} ${next || ''}`; // Save the total and set operation and next to empty strings
+    } else if (next) { // If there is no operation
+      result = next; // Save the next value to this variable
+    }
+
+    // Give the class name 'different' to the buttons that are not numbers accordingly to the css rules
+    function giveClassName (btn) {
+      if (btn === '+' || btn === 'x' || btn === '-' || btn === '÷' || btn === '=') {
+        return 'different';
+      }
+      if (btn === '0') {
+        return 'zero';
+      }
+      return '';
+    }
+
     return (
-      <Pad />
+      <div className='main'>
+        <ul className='calc'>
+          <li className="screen">
+            <h3 className="" >{result}</h3>
+          </li>
+
+          {buttons.map((btn) => (
+            <li className={`pad same ${giveClassName(btn)}`} key={btn}>
+              <button key={btn} onClick={this.handleClick} type='button'>
+                {btn}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
     );
   }
 }
+
 export default Calculator;
