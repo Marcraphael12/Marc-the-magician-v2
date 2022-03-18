@@ -47,8 +47,7 @@ class Calculator extends React.Component {
           <li className="screen">
             <h3 className="" >{result}</h3>
           </li>
-
-          {buttons.map((btn) => (
+          {buttons.map((btn) => ( // Map the buttons list
             <li className={`pad same ${giveClassName(btn)}`} key={btn}>
               <button key={btn} onClick={this.handleClick} type='button'>
                 {btn}
