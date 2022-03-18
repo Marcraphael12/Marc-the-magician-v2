@@ -13,12 +13,11 @@
   justify-content: center;
 }
 
-button,
-input {
+button {
   width: 100%;
   height: auto;
   padding: 10px 0;
   background: transparent;
-  outline: none;
   border: none;
+  color: white;
 }

@@ -13,15 +13,26 @@
 /* Calculator's screen start */
 .screen { /* Calculator's screen */
   width: 100%;
+  border: 1px solid black;
   height: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: flex-end;
   background: rgb(42, 42, 42);
 }
 
-.screen input { /* Calculator's screen input */
-  direction: rtl;
+.screen h3 { /* Calculator's screen input */
+  min-width: 10px;
   max-width: 100%;
-  padding: 10px;
-  color: #fff;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: white;
 }
 
 /* Calculator's screen end */
@@ -50,11 +61,11 @@ li {
 }
 
 .different { /* Orange buttons */
-  background-color: #f60;
+  background-color: #f60 !important;
 }
 
 .different:hover {
-  background-color: #d60;
+  background-color: #d60 !important;
 }
 
 /* Calculator's buttons end */
