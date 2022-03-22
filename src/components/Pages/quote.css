@@ -3,3 +3,9 @@
 	width: 100%;
 	height: calc(90% - 100px);
 }
+
+.Quote h2 {
+	color: white;
+	font-size: calc(1vw + 8px);
+	padding: 20px;
+}
