@@ -41,6 +41,9 @@ const Calculator = () => {
 
   return (
     <div className='main'>
+      <div className='head'>
+        <h3>Let's do some math</h3>
+      </div>
       <ul className='calc'>
         <li className="screen">
           <h3 className="" >{result}</h3>
