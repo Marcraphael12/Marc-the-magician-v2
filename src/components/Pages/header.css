@@ -1,3 +1,7 @@
-.header {
-	
+/* Flex the header so elements can be easily aligned */
+.Header {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
 }
