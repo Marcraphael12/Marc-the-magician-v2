@@ -1,4 +1,4 @@
-const Quote = () => {
+export default function Quote () {
 	return (
 		<div>
 			<h2>
@@ -6,4 +6,4 @@ const Quote = () => {
 			</h2>
 		</div>
 	)
-}
+};
