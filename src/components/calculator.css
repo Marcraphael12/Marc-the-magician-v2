@@ -37,12 +37,6 @@
 
 /* Calculator's screen end */
 
-/* Calculator's buttons start */
-li {
-  border: 1px solid #000;
-  font-weight: bolder;
-}
-
 .pad { /* Calculator's buttons container */
   width: 25%;
   height: auto;
