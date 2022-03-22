@@ -1,7 +1,23 @@
 .main { /* Main container */
   width: 100%;
-  max-width: 300px;
+  height: calc(90% - 100px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.head {
+  width: 40%;
   height: auto;
+}
+
+.head h3 {
+  width: 100%;
+  height: auto;
+  color: #00ca33;
+  font-size: calc(1vw + 8px);
+  font-weight: 100;
 }
 
 .calc { /* Calculator container */
@@ -33,9 +49,7 @@
   background: transparent;
   border: none;
   color: white;
-}
-
-/* Calculator's screen end */
+} /* Calculator's screen end */
 
 .pad { /* Calculator's buttons container */
   width: 25%;
