@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header  () {
   return (
-    <div>
+    <div className='Header'>
       <h1>Math Magicians</h1>
 
       <nav>
