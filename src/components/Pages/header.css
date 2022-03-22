@@ -14,3 +14,19 @@
 	align-items: center;
 	font-size: calc(3vw + 10px); /* Help the font to automaticaly chnge its size along with the screen size */
 }
+
+.Header nav {
+	width: 40%;
+	max-width: 190px; /* Help to maintain a good spacing between nav links */
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.Header nav ul { /* Nav list container */
+	width: 100%; /* Make the list container full width with its parent 'nav' */
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
