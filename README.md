@@ -6,20 +6,20 @@
 that allows users to make simple calculations, read a random math-related quote.
 
 ![screenshot](./bkg1.png)
-<!--![screenshot](./bkg2.png)
-![screenshot](./bkg3.png) -->
+![screenshot](./bkg2.png)
+![screenshot](./bkg3.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages: JavaScript REACT, HTML&CSS
-- Frameworks
-- Technologies used
+- Major languages: JavaScript, JSX, HTML&CSS
+- Frameworks: ReactJs
+- Technologies used: React-Router, Jest
 
 ## Live Demo
 
-[In construction]()
+[Under construction]()
 
 
 ## Getting Started
