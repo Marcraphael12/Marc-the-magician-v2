@@ -34,10 +34,10 @@ To get a local copy up and running follow these simple example steps.
 npm/yarn installed
 
 ### Setup
-clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician.git</code><br>
-jump to the active branch: <code>git checkout setup-react</code><br>
+clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician-v2.git</code><br>
+jump to the active branch: <code>git checkout building-app</code><br>
 ### Install
-in the terminal, run: <code>npm install</code> or <code>npm i</code>
+in the terminal, run: <code>npm install</code>
 ### Usage
 now run <code>npm start</code> to start the app
 ### Run tests
