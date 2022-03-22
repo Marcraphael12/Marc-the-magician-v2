@@ -29,13 +29,12 @@
 /* Calculator's screen start */
 .screen { /* Calculator's screen */
   width: 100%;
-  border: 1px solid black;
   height: auto;
   display: flex;
   align-items: center;
   padding: 0 10px;
   justify-content: flex-end;
-  background: rgb(42, 42, 42);
+  background-color: #110723;
 }
 
 .screen h3 { /* Calculator's screen input */
