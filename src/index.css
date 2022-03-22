@@ -11,6 +11,9 @@
   height: 100vh;
   background-color: #110723;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Header, .Home, .main, .Quote {
