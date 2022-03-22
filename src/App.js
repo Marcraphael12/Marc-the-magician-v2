@@ -1,7 +1,11 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
+// Components list
 import Calculator from './components/calculator';
+import Quote from './components/Pages/quote';
+import Header from './components/Pages/header';
+import Home from './components/Pages/home';
 
 
 const App = () => {
