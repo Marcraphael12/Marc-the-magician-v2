@@ -5,3 +5,12 @@
 	height: auto;
 	justify-content: space-between;
 }
+
+/* Header's childs */
+.Header h1 {
+	width: 40%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	font-size: calc(3vw + 10px); /* Help the font to automaticaly chnge its size along with the screen size */
+}
