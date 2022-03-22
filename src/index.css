@@ -16,7 +16,10 @@
   align-items: center;
 }
 
-.Header, .Home, .main, .Quote {
+.Header,
+.Home,
+.main, 
+.Quote {
   max-width: 1024px;
 }
 
