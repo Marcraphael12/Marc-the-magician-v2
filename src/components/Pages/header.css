@@ -40,3 +40,7 @@ a {
   text-decoration: none;
   color: #c6bad1;
 }
+
+a:hover {
+  color: #5d3b80;
+}
