@@ -22,8 +22,11 @@
 
 .calc { /* Calculator container */
   width: 300px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ca33;
 }
 
 /* Calculator's screen start */
