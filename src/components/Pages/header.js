@@ -1,4 +1,4 @@
-const Header = () => {
+export default function Header  () {
   return (
     <div>
       <h1>Math Magicians</h1>
@@ -6,18 +6,18 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a>Home</a>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a>Calculator</a>
+            <Link to="/calculator">Calculator</Link>
           </li>
 
           <li>
-            <a>Quote</a>
+            <Link to="/quote">Quote</Link>
           </li>
         </ul>
       </nav>
     </div>
   )
-}
+};
