@@ -56,7 +56,7 @@ Author only
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Marcraphael12/Marc-the-magician-v2/issue).
 
 ## Show your support
 
@@ -64,9 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: [Dribbble](https://dribbble.com/search/calculator)
 
 ## 📝 License
 
