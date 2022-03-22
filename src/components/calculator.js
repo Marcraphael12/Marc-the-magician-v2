@@ -28,12 +28,12 @@ const Calculator = () => {
     result = next; // Save the next value to this variable
   }
 
-  // Give the class name 'different' to the buttons that are not numbers accordingly to the css rules
+  // Give the class name 'green' to the buttons that are not numbers accordingly to the css rules
   function giveClassName (btn) {
     if (btn === '+' || btn === 'x' || btn === '-' || btn === '÷' || btn === '=') {
       return 'green';
     }
-    if (btn === 'AC' || btn === '+/-' || btn === '%') {
+    if (btn === 'AC' || btn === '+/-' || btn === '%') { // Color the text in case of AC, +/- and %
       return 'text-color';
     }
     if (btn === '0') {
