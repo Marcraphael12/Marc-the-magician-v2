@@ -1,0 +1,8 @@
+.Home {
+	width: 100%;
+	height: calc(90% - 100px);
+}
+
+.Home p {
+	color: #00ca33;
+}
