@@ -44,3 +44,18 @@ a {
 a:hover {
   color: #5d3b80;
 }
+
+@media screen and (max-width: 400px) {
+  .Header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Header h1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .Header nav {
+    width: 100%;
+  }
+}
