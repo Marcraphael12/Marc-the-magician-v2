@@ -8,7 +8,7 @@
 }
 
 .head {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
@@ -16,12 +16,12 @@
   width: 100%;
   height: auto;
   color: #00ca33;
-  font-size: calc(1vw + 8px);
+  font-size: medium;
   font-weight: 100;
 }
 
 .calc { /* Calculator container */
-  width: 100%;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
 }
