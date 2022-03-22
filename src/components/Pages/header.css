@@ -17,6 +17,7 @@
 	display: flex;
 	align-items: center;
 	font-size: calc(3vw + 10px); /* Help the font to automaticaly chnge its size along with the screen size */
+	color: #fff;
 }
 
 .Header nav {
@@ -33,4 +34,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: #c6bad1;
 }
