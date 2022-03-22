@@ -1,25 +1,45 @@
 .main { /* Main container */
   width: 100%;
-  max-width: 300px;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.head {
+  width: 50%;
   height: auto;
 }
 
-.calc { /* Calculator container */
+.head h3 {
   width: 100%;
+  height: auto;
+  color: #00ca33;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.calc { /* Calculator container */
+  width: 300px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 /* Calculator's screen start */
 .screen { /* Calculator's screen */
+  border: 1px solid #00ca33;
+  border-radius: 15px;
   width: 100%;
-  border: 1px solid black;
-  height: auto;
+  height: 40px;
   display: flex;
   align-items: center;
   padding: 0 10px;
   justify-content: flex-end;
-  background: rgb(42, 42, 42);
+  background-color: #110723;
 }
 
 .screen h3 { /* Calculator's screen input */
@@ -29,43 +49,47 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 50;
   background: transparent;
   border: none;
   color: white;
-}
-
-/* Calculator's screen end */
-
-/* Calculator's buttons start */
-li {
-  border: 1px solid #000;
-  font-weight: bolder;
-}
+} /* Calculator's screen end */
 
 .pad { /* Calculator's buttons container */
-  width: 25%;
+  width: 24%;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .zero { /* zero button */
-  width: 50%;
+  width: 48%;
 }
 
-.same { /* gray buttons */
-  background-color: #5c5c5c;
+.light { /* Free buttons buttons */
+  background-color: #0000;
+  color: #00ca33;
 }
 
-.same:hover {
+.light:hover {
   background-color: #4c4c4c;
 }
 
-.different { /* Orange buttons */
-  background-color: #f60 !important;
+.green { /* Colorized buttons */
+  width: 50px;
+  height: 50px;
+  background-color: #00ca33 !important;
+  border: none;
+  border-radius: 50%;
 }
 
-.different:hover {
-  background-color: #d60 !important;
+.green:hover {
+  background-color: #00ca328a !important;
+}
+
+.text-color button {
+  color: #00ca33;
 }
 
 /* Calculator's buttons end */

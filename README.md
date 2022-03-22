@@ -6,20 +6,20 @@
 that allows users to make simple calculations, read a random math-related quote.
 
 ![screenshot](./bkg1.png)
-<!--![screenshot](./bkg2.png)
-![screenshot](./bkg3.png) -->
+![screenshot](./bkg2.png)
+![screenshot](./bkg3.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages: JavaScript REACT, HTML&CSS
-- Frameworks
-- Technologies used
+- Major languages: JavaScript, JSX, HTML&CSS
+- Frameworks: ReactJs
+- Technologies used: React-Router, Jest
 
 ## Live Demo
 
-[In construction]()
+[Under construction]()
 
 
 ## Getting Started
@@ -34,10 +34,10 @@ To get a local copy up and running follow these simple example steps.
 npm/yarn installed
 
 ### Setup
-clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician.git</code><br>
-jump to the active branch: <code>git checkout setup-react</code><br>
+clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician-v2.git</code><br>
+jump to the active branch: <code>git checkout building-app</code><br>
 ### Install
-in the terminal, run: <code>npm install</code> or <code>npm i</code>
+in the terminal, run: <code>npm install</code>
 ### Usage
 now run <code>npm start</code> to start the app
 ### Run tests
@@ -56,7 +56,7 @@ Author only
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Marcraphael12/Marc-the-magician-v2/issue).
 
 ## Show your support
 
@@ -64,9 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: [Dribbble](https://dribbble.com/search/calculator)
 
 ## 📝 License
 

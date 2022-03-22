@@ -1,0 +1,24 @@
+.Home {
+  width: 100%;
+  height: calc(90% - 100px);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Home h1 {
+  font-size: calc(2vw + 10px);
+  color: #00ca32;
+}
+
+.Home div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Home div p {
+  color: #5d3b80;
+}

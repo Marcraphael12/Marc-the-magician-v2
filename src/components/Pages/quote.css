@@ -1,0 +1,13 @@
+.Quote {
+  background-color: #100524d8;
+  width: 100%;
+  height: calc(90% - 100px);
+}
+
+.Quote h2 {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 100;
+  color: #00ca33;
+}
