@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App component 1`] = `
+<div
+  className="Home"
+>
+  <h1>
+    Welcome to The Math Magic App
+  </h1>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum,
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App renders the Home component safel component 1`] = `
+<div
+  className="Home"
+>
+  <h1>
+    Welcome to The Math Magic App
+  </h1>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum,
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Home page of the App Builds the snapchot of the Home component safely 1`] = `
+<div
+  className="Home"
+>
+  <h1>
+    Welcome to The Math Magic App
+  </h1>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum,
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Home page of the App renders the Home component safely 1`] = `
+<div
+  className="Home"
+>
+  <h1>
+    Welcome to The Math Magic App
+  </h1>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi euismod nisi. Nullam euismod, nisi vel consectetur interdum,
+    </p>
+  </div>
+</div>
+`;
