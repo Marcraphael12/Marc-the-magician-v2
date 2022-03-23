@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator page of the App Builds the snapchot of the Calculator component safely 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="head"
+  >
+    <h3>
+      Let's do some math
+    </h3>
+  </div>
+  <ul
+    className="calc"
+  >
+    <li
+      className="screen"
+    >
+      <h3
+        className=""
+      >
+        
+      </h3>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </li>
+    <li
+      className="pad light zero"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Calculator page of the App renders the Calculator component safely 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="head"
+  >
+    <h3>
+      Let's do some math
+    </h3>
+  </div>
+  <ul
+    className="calc"
+  >
+    <li
+      className="screen"
+    >
+      <h3
+        className=""
+      >
+        
+      </h3>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+    </li>
+    <li
+      className="pad light text-color"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </li>
+    <li
+      className="pad light zero"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+    </li>
+    <li
+      className="pad light "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </li>
+    <li
+      className="pad light green"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote page of the App Builds the snapchot of the Quote component safely 1`] = `
+<div
+  className="Quote"
+>
+  <h2>
+    Mathematics is not about numbers, equations, computations, or algorithms: It's about understanding - William Paul Thurston
+  </h2>
+</div>
+`;
+
+exports[`Quote page of the App renders the Quote component safely 1`] = `
+<div
+  className="Quote"
+>
+  <h2>
+    Mathematics is not about numbers, equations, computations, or algorithms: It's about understanding - William Paul Thurston
+  </h2>
+</div>
+`;
