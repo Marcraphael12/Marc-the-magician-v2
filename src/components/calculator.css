@@ -73,6 +73,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.text-color button {
+  color: #00ca33;
+}
+
 .light button:hover {
   color: #00ca32ce;
   transition: all 0.2s ease-in-out;
@@ -89,10 +93,6 @@
 
 .green:hover {
   background-color: #00ca328a !important;
-}
-
-.text-color button {
-  color: #00ca33;
 }
 
 /* Calculator's buttons end */
