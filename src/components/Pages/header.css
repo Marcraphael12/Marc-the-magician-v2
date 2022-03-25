@@ -39,6 +39,7 @@
 a {
   text-decoration: none;
   color: #c6bad1;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {

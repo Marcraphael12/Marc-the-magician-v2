@@ -70,10 +70,16 @@
 .light { /* Free buttons buttons */
   background-color: #0000;
   color: #00ca33;
+  transition: all 0.2s ease-in-out;
 }
 
-.light:hover {
-  background-color: #4c4c4c;
+.text-color button {
+  color: #00ca33;
+}
+
+.light button:hover {
+  color: #00ca32ce;
+  transition: all 0.2s ease-in-out;
 }
 
 .green { /* Colorized buttons */
@@ -82,14 +88,11 @@
   background-color: #00ca33 !important;
   border: none;
   border-radius: 50%;
+  transition: all 0.2s ease-in-out;
 }
 
 .green:hover {
   background-color: #00ca328a !important;
-}
-
-.text-color button {
-  color: #00ca33;
 }
 
 /* Calculator's buttons end */

@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Under construction]()
+[See it online](https://make-some-math.netlify.app)
 
 
 ## Getting Started
